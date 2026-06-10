@@ -1,0 +1,660 @@
+{
+  "metadata": {
+    "solver_version": "v3",
+    "date": "2026-05-22"
+  },
+  "population": {
+    "year5": {
+      "A": [
+        500,
+        157,
+        116
+      ],
+      "B": [
+        417,
+        135,
+        108
+      ],
+      "C": [
+        640,
+        207,
+        151
+      ],
+      "D": [
+        375,
+        120,
+        95
+      ],
+      "E": [
+        544,
+        176,
+        131
+      ],
+      "F": [
+        331,
+        106,
+        76
+      ],
+      "G": [
+        600,
+        193,
+        145
+      ],
+      "H": [
+        396,
+        128,
+        92
+      ],
+      "I": [
+        511,
+        166,
+        121
+      ],
+      "J": [
+        460,
+        146,
+        106
+      ]
+    },
+    "total_year5": 7449,
+    "total_self": 4774,
+    "total_semi": 1534,
+    "total_dis": 1141
+  },
+  "alphas": {
+    "A": {
+      "自理": 1.0,
+      "半失能": 1.0,
+      "失能": 0.8443708609271523
+    },
+    "B": {
+      "自理": 1.0,
+      "半失能": 0.9428223844282239,
+      "失能": 0.7698675496688742
+    },
+    "C": {
+      "自理": 1.0,
+      "半失能": 1.0,
+      "失能": 0.9437086092715232
+    },
+    "D": {
+      "自理": 1.0,
+      "半失能": 0.8819951338199513,
+      "失能": 0.7201986754966887
+    },
+    "E": {
+      "自理": 1.0,
+      "半失能": 1.0,
+      "失能": 0.8692052980132451
+    },
+    "F": {
+      "自理": 1.0,
+      "半失能": 0.8211678832116789,
+      "失能": 0.6705298013245033
+    },
+    "G": {
+      "自理": 1.0,
+      "半失能": 1.0,
+      "失能": 0.8940397350993378
+    },
+    "H": {
+      "自理": 1.0,
+      "半失能": 0.9124087591240876,
+      "失能": 0.7450331125827815
+    },
+    "I": {
+      "自理": 1.0,
+      "半失能": 1.0,
+      "失能": 0.8195364238410596
+    },
+    "J": {
+      "自理": 1.0,
+      "半失能": 0.9732360097323601,
+      "失能": 0.7947019867549668
+    }
+  },
+  "problem2": {
+    "best": {
+      "n_stations": 5,
+      "stations": [
+        {
+          "community": "A",
+          "type": "中型"
+        },
+        {
+          "community": "C",
+          "type": "小型"
+        },
+        {
+          "community": "G",
+          "type": "小型"
+        },
+        {
+          "community": "I",
+          "type": "小型"
+        },
+        {
+          "community": "J",
+          "type": "中型"
+        }
+      ],
+      "total_budget": 118,
+      "coverage": 1.0,
+      "avg_satisfaction": 0.9259856747614326,
+      "profits": [
+        {
+          "station": "A-中型",
+          "annual_fixed_wan": 118.4,
+          "annual_gross_wan": 182.63,
+          "annual_subsidy_wan": 65.7,
+          "annual_net_wan": 129.93,
+          "profit_rate": 1.0974,
+          "daily_load": 1640.2,
+          "utilization": 0.8201,
+          "load_by_svc": {
+            "助餐": 781.0,
+            "日间照料": 504.9,
+            "上门护理": 132.7,
+            "康复理疗": 140.3,
+            "助浴": 44.2,
+            "紧急救助": 37.1
+          }
+        },
+        {
+          "station": "C-小型",
+          "annual_fixed_wan": 73.9,
+          "annual_gross_wan": 129.21,
+          "annual_subsidy_wan": 36.5,
+          "annual_net_wan": 91.81,
+          "profit_rate": 1.2424,
+          "daily_load": 1149.1,
+          "utilization": 1.0,
+          "load_by_svc": {
+            "助餐": 541.2,
+            "日间照料": 352.8,
+            "上门护理": 98.4,
+            "康复理疗": 98.8,
+            "助浴": 32.8,
+            "紧急救助": 25.2
+          }
+        },
+        {
+          "station": "G-小型",
+          "annual_fixed_wan": 73.9,
+          "annual_gross_wan": 56.37,
+          "annual_subsidy_wan": 36.5,
+          "annual_net_wan": 18.97,
+          "profit_rate": 0.2567,
+          "daily_load": 516.4,
+          "utilization": 0.5164,
+          "load_by_svc": {
+            "助餐": 249.9,
+            "日间照料": 159.5,
+            "上门护理": 37.8,
+            "康复理疗": 43.9,
+            "助浴": 12.6,
+            "紧急救助": 12.8
+          }
+        },
+        {
+          "station": "I-小型",
+          "annual_fixed_wan": 73.9,
+          "annual_gross_wan": 394.53,
+          "annual_subsidy_wan": 36.5,
+          "annual_net_wan": 357.13,
+          "profit_rate": 4.8326,
+          "daily_load": 3537.4,
+          "utilization": 1.0,
+          "load_by_svc": {
+            "助餐": 1676.0,
+            "日间照料": 1087.0,
+            "上门护理": 292.6,
+            "康复理疗": 303.0,
+            "助浴": 97.5,
+            "紧急救助": 81.2
+          }
+        },
+        {
+          "station": "J-中型",
+          "annual_fixed_wan": 118.4,
+          "annual_gross_wan": 151.68,
+          "annual_subsidy_wan": 65.7,
+          "annual_net_wan": 98.98,
+          "profit_rate": 0.836,
+          "daily_load": 1371.0,
+          "utilization": 0.6855,
+          "load_by_svc": {
+            "助餐": 653.4,
+            "日间照料": 421.7,
+            "上门护理": 109.5,
+            "康复理疗": 117.1,
+            "助浴": 36.5,
+            "紧急救助": 32.8
+          }
+        }
+      ],
+      "iterations": 20
+    },
+    "pareto": [
+      {
+        "coverage": 0.4499,
+        "satisfaction": 0.8373,
+        "n_st": 1,
+        "cost": 18,
+        "comms": [
+          "A"
+        ]
+      },
+      {
+        "coverage": 0.8076,
+        "satisfaction": 0.839,
+        "n_st": 1,
+        "cost": 18,
+        "comms": [
+          "E"
+        ]
+      },
+      {
+        "coverage": 0.8076,
+        "satisfaction": 0.8406,
+        "n_st": 2,
+        "cost": 36,
+        "comms": [
+          "E",
+          "F"
+        ]
+      },
+      {
+        "coverage": 0.8076,
+        "satisfaction": 0.8444,
+        "n_st": 2,
+        "cost": 50,
+        "comms": [
+          "E",
+          "F"
+        ]
+      },
+      {
+        "coverage": 0.8076,
+        "satisfaction": 0.8463,
+        "n_st": 2,
+        "cost": 63,
+        "comms": [
+          "E",
+          "F"
+        ]
+      },
+      {
+        "coverage": 0.8169,
+        "satisfaction": 0.8573,
+        "n_st": 2,
+        "cost": 63,
+        "comms": [
+          "A",
+          "B"
+        ]
+      },
+      {
+        "coverage": 0.8962,
+        "satisfaction": 0.8667,
+        "n_st": 2,
+        "cost": 77,
+        "comms": [
+          "C",
+          "E"
+        ]
+      },
+      {
+        "coverage": 0.8962,
+        "satisfaction": 0.8866,
+        "n_st": 2,
+        "cost": 90,
+        "comms": [
+          "C",
+          "E"
+        ]
+      },
+      {
+        "coverage": 0.8962,
+        "satisfaction": 0.8981,
+        "n_st": 3,
+        "cost": 95,
+        "comms": [
+          "C",
+          "E",
+          "I"
+        ]
+      },
+      {
+        "coverage": 0.8962,
+        "satisfaction": 0.9003,
+        "n_st": 3,
+        "cost": 95,
+        "comms": [
+          "C",
+          "F",
+          "G"
+        ]
+      },
+      {
+        "coverage": 0.8962,
+        "satisfaction": 0.9019,
+        "n_st": 3,
+        "cost": 109,
+        "comms": [
+          "C",
+          "E",
+          "I"
+        ]
+      },
+      {
+        "coverage": 0.8962,
+        "satisfaction": 0.9105,
+        "n_st": 3,
+        "cost": 109,
+        "comms": [
+          "C",
+          "E",
+          "I"
+        ]
+      },
+      {
+        "coverage": 0.8962,
+        "satisfaction": 0.9134,
+        "n_st": 3,
+        "cost": 108,
+        "comms": [
+          "C",
+          "E",
+          "I"
+        ]
+      },
+      {
+        "coverage": 0.8962,
+        "satisfaction": 0.9155,
+        "n_st": 4,
+        "cost": 99,
+        "comms": [
+          "C",
+          "F",
+          "G",
+          "I"
+        ]
+      },
+      {
+        "coverage": 0.8962,
+        "satisfaction": 0.9214,
+        "n_st": 4,
+        "cost": 113,
+        "comms": [
+          "C",
+          "F",
+          "G",
+          "I"
+        ]
+      },
+      {
+        "coverage": 1.0,
+        "satisfaction": 0.9236,
+        "n_st": 4,
+        "cost": 113,
+        "comms": [
+          "A",
+          "G",
+          "H",
+          "J"
+        ]
+      },
+      {
+        "coverage": 1.0,
+        "satisfaction": 0.9244,
+        "n_st": 4,
+        "cost": 113,
+        "comms": [
+          "B",
+          "F",
+          "G",
+          "J"
+        ]
+      },
+      {
+        "coverage": 1.0,
+        "satisfaction": 0.9258,
+        "n_st": 5,
+        "cost": 117,
+        "comms": [
+          "A",
+          "B",
+          "C",
+          "G",
+          "I"
+        ]
+      }
+    ]
+  },
+  "problem3": {
+    "price_multipliers": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "avg_satisfaction": 0.9259856747614326,
+    "profits": [
+      {
+        "station": "A-中型",
+        "annual_fixed_wan": 118.4,
+        "annual_gross_wan": 182.63,
+        "annual_subsidy_wan": 65.7,
+        "annual_net_wan": 129.93,
+        "profit_rate": 1.0974,
+        "daily_load": 1640.2,
+        "utilization": 0.8201,
+        "load_by_svc": {
+          "助餐": 781.0,
+          "日间照料": 504.9,
+          "上门护理": 132.7,
+          "康复理疗": 140.3,
+          "助浴": 44.2,
+          "紧急救助": 37.1
+        }
+      },
+      {
+        "station": "C-小型",
+        "annual_fixed_wan": 73.9,
+        "annual_gross_wan": 129.21,
+        "annual_subsidy_wan": 36.5,
+        "annual_net_wan": 91.81,
+        "profit_rate": 1.2424,
+        "daily_load": 1149.1,
+        "utilization": 1.0,
+        "load_by_svc": {
+          "助餐": 541.2,
+          "日间照料": 352.8,
+          "上门护理": 98.4,
+          "康复理疗": 98.8,
+          "助浴": 32.8,
+          "紧急救助": 25.2
+        }
+      },
+      {
+        "station": "G-小型",
+        "annual_fixed_wan": 73.9,
+        "annual_gross_wan": 56.37,
+        "annual_subsidy_wan": 36.5,
+        "annual_net_wan": 18.97,
+        "profit_rate": 0.2567,
+        "daily_load": 516.4,
+        "utilization": 0.5164,
+        "load_by_svc": {
+          "助餐": 249.9,
+          "日间照料": 159.5,
+          "上门护理": 37.8,
+          "康复理疗": 43.9,
+          "助浴": 12.6,
+          "紧急救助": 12.8
+        }
+      },
+      {
+        "station": "I-小型",
+        "annual_fixed_wan": 73.9,
+        "annual_gross_wan": 394.53,
+        "annual_subsidy_wan": 36.5,
+        "annual_net_wan": 357.13,
+        "profit_rate": 4.8326,
+        "daily_load": 3537.4,
+        "utilization": 1.0,
+        "load_by_svc": {
+          "助餐": 1676.0,
+          "日间照料": 1087.0,
+          "上门护理": 292.6,
+          "康复理疗": 303.0,
+          "助浴": 97.5,
+          "紧急救助": 81.2
+        }
+      },
+      {
+        "station": "J-中型",
+        "annual_fixed_wan": 118.4,
+        "annual_gross_wan": 151.68,
+        "annual_subsidy_wan": 65.7,
+        "annual_net_wan": 98.98,
+        "profit_rate": 0.836,
+        "daily_load": 1371.0,
+        "utilization": 0.6855,
+        "load_by_svc": {
+          "助餐": 653.4,
+          "日间照料": 421.7,
+          "上门护理": 109.5,
+          "康复理疗": 117.1,
+          "助浴": 36.5,
+          "紧急救助": 32.8
+        }
+      }
+    ]
+  },
+  "sensitivity": {
+    "a_demographic": {
+      "n_stations": 5,
+      "coverage": 1.0,
+      "avg_satisfaction": 0.9251927718793594,
+      "profits_summary": [
+        {
+          "station": "A-大型",
+          "profit_rate": 1.2895,
+          "utilization": 0.831
+        },
+        {
+          "station": "C-小型",
+          "profit_rate": 1.346,
+          "utilization": 1.0
+        },
+        {
+          "station": "G-小型",
+          "profit_rate": 0.2998,
+          "utilization": 0.5442
+        },
+        {
+          "station": "I-小型",
+          "profit_rate": 5.1523,
+          "utilization": 1.0
+        },
+        {
+          "station": "J-小型",
+          "profit_rate": 0.5281,
+          "utilization": 0.6905
+        }
+      ]
+    },
+    "b_cost_up": {
+      "n_stations": 5,
+      "coverage": 1.0,
+      "avg_satisfaction": 0.9259856747614326,
+      "profits_summary": [
+        {
+          "station": "A-中型",
+          "profit_rate": 0.7518,
+          "utilization": 0.8201
+        },
+        {
+          "station": "C-小型",
+          "profit_rate": 0.8724,
+          "utilization": 1.0
+        },
+        {
+          "station": "G-小型",
+          "profit_rate": 0.0494,
+          "utilization": 0.5164
+        },
+        {
+          "station": "I-小型",
+          "profit_rate": 3.8704,
+          "utilization": 1.0
+        },
+        {
+          "station": "J-中型",
+          "profit_rate": 0.5335,
+          "utilization": 0.6855
+        }
+      ]
+    },
+    "c_budget140": {
+      "n_stations": 4,
+      "coverage": 1.0,
+      "avg_satisfaction": 0.9398202036274955,
+      "profits_summary": [
+        {
+          "station": "C-大型",
+          "profit_rate": 0.9845,
+          "utilization": 0.6792
+        },
+        {
+          "station": "F-大型",
+          "profit_rate": 1.325,
+          "utilization": 0.8487
+        },
+        {
+          "station": "H-小型",
+          "profit_rate": 3.6372,
+          "utilization": 1.0
+        },
+        {
+          "station": "J-中型",
+          "profit_rate": 0.3447,
+          "utilization": 0.4312
+        }
+      ]
+    }
+  }
+}
